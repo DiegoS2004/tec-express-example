@@ -7,3 +7,5 @@ const connectionString = process.env.DATABASE_URL;
 
 const customerService = CustomerServiceFactory.create(serviceType, connectionString);
 const customerController = new CustomerController(customerService); 
+
+console.log('Hello World'); // Agregado un mensaje de Hello World
